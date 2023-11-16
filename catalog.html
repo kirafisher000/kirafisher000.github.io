@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+        <title>Cougar</title>
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <div class="header_logo"><a href="index.html">Cougar</a></div>
+            <form class="search">
+                <input type="search" class="search_inside" placeholder="Поиск...">
+            </form>
+            <nav class="head_nav">
+                <ul>
+                <li><a href="catalog.html" class="head_nav_stf">Кошки</a></li>
+                <li><a href="catalog.html" class="head_nav_stf">Собаки</a></li>
+                <li><a href="contacts.html" class="head_nav_stf">Контакты</a></li>
+                <li><a href="grooming.html" class="head_nav_stf">Грумминг</a></li>
+                </ul>
+                
+            <a href="log_in.html" class="log_in">Войти</a>
+            </nav>
+
+
+        </header>
+    </div>
+
+    <div class="main_content">
+        
+
+        <div class="popular_prds">
+           <div class="prds_title"><h1>Каталог товаров</h1></div>
+            <div class="prds_filter">
+                <h2>Фильтр каталога</h2>
+                <form class="prds_filter_form">
+                    <div>
+                    <h4>Цена:</h4><br>
+                    от<input type="text" name="min_price" id="min_price">
+                    до<input type="text" name="max_price" id="max_price">
+                    </div>
+                    <br>
+                    <div>
+                        <h4>Тип:</h4>
+                        <div class="form_piece">
+                            <label for="cats">cats</label>
+                            <input type="radio" id="cats" name="fltr_type" value="cats" checked />
+                        </div>
+                        
+                        <div class="form_piece">
+                            <label for="dogs">dogs</label>
+                            <input type="radio" id="dogs" name="fltr_type" value="dogs" />
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <div>
+                        <h4>Товар:</h4>
+                        <div class="form_piece">
+                            <label for="scratch">когтеточки</label>
+                            <input type="checkbox" id="scratch" name="scratch" checked/>
+                        </div>
+                        
+                        <div class="form_piece">
+                            <label for="bowl">миски</label>
+                            <input type="checkbox" id="bowl" name="bowl" />
+                        </div>
+                        <div class="form_piece">
+                            <label for="litter_box">лотки</label>
+                            <input type="checkbox" id="litter_box" name="litter_box" />
+                        </div>
+                        
+                        <div class="form_piece">
+                            <label for="food">корм</label>
+                            <input type="checkbox" id="food" name="food" />
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <input type="submit" name="filter_submit" id="filter_submit">
+                </form>
+            </div>
+            <div class="prds_placement">
+                <div class="prds_piece">
+                    <a class="prds_link" href="product.html">
+                    <div class="prds_image"><img src="styles/pic4.webp"></div>
+                    </a>
+                    <div class="prds_price">РУБ. 1400</div>
+                    <div class="prds_discr">Название</div>
+                    
+                </div>
+                <div class="prds_piece">
+                    <a class="prds_link" href="product.html">
+                    <div class="prds_image"><img src="styles/pic5.jpeg"></div></a>
+                    <div class="prds_price">РУБ. 1600</div>
+                    <div class="prds_discr">Название</div>
+                </div>
+                <div class="prds_piece">
+                    <a class="prds_link" href="product.html">
+                    <div class="prds_image"><img src="styles/pic7.jpg"></div></a>
+                    <div class="prds_price">РУБ. 1600</div>
+                    <div class="prds_discr">Название</div>
+                </div>
+                <div class="prds_piece">
+                    <div class="prds_image"><img src="styles/pic4.webp"></div>
+                    <div class="prds_price">РУБ. 1600</div>
+                    <div class="prds_discr">Название</div>
+                </div>
+                <div class="prds_piece">
+                    <a class="prds_link" href="product.html">
+                    <div class="prds_image"><img src="styles/pic5.jpeg"></div></a>
+                    <div class="prds_price">РУБ. 1600</div>
+                    <div class="prds_discr">Название</div>
+                </div>
+                <div class="prds_piece">
+                    <a class="prds_link" href="product.html">
+                    <div class="prds_image"><img src="styles/pic1.jpg"></div></a>
+                    <div class="prds_price">РУБ. 1600</div>
+                    <div class="prds_discr">Название</div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="container">
+        <footer>
+            <div class="footer_logo">Cougar</div>
+            <nav class="footer_nav">
+                <ul>
+                <li><a href="catalog.html" class="footer_nav_stf">Кошки</a></li>
+                <li><a href="catalog.html" class="footer_nav_stf">Собаки</a></li>
+                <li><a href="contacts.html" class="footer_nav_stf">Контакты</a></li>
+                <li><a href="#" class="footer_nav_stf">Грумминг</a></li>
+                </ul>
+                
+            </nav>
+            <div class="footer_c">© 2017 - 2021 FlowMapp</div>
+        </footer>
+    </div>
+    </body>
+</html>
